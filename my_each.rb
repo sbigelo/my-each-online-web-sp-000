@@ -17,9 +17,9 @@ def my_each(string)
 end
 
 
- empty_array = []
+# empty_array = []
 
-    saved_block = Proc.new {
-      my_each(empty_array) do |x|
-        raise "This block should not run!"
-      end
+#     saved_block = Proc.new {
+#       my_each(empty_array) do |x|
+#         raise "This block should not run!"
+#       end
