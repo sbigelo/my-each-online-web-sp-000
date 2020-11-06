@@ -7,7 +7,8 @@ def my_each(string)
    count += 1
  
  end
- else puts "This block should not run!"
+ else
+   "This block should not run!"
  end
  string
 end
