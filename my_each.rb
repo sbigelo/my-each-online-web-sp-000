@@ -1,6 +1,6 @@
 def my_each(string)
  count = 0
- while count < 4 
+ while count < string.length 
   yield string[count]
   
    count += 1
