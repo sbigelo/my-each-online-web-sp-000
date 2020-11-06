@@ -7,8 +7,19 @@ def my_each(string)
    count += 1
  
  end
- else
+ else empty_array = []
+   saved_block = Proc.new
+   my_each(empty_array) do |x|
    "This block should not run!"
+ end
  end
  string
 end
+
+
+ empty_array = []
+
+    saved_block = Proc.new {
+      my_each(empty_array) do |x|
+        raise "This block should not run!"
+      end
