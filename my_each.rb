@@ -6,4 +6,5 @@ def my_each(string)
    count += 1
  
  end
+ 
 end
