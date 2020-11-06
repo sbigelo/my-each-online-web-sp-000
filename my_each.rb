@@ -1,7 +1,7 @@
 def my_each(string)
  count = 0
  while count < string.length 
-  yield (string[count])
+  yield(string[count])
   
    count += 1
  
